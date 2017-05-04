@@ -37169,9 +37169,31 @@
 	      return _react2.default.createElement(
 	        "footer",
 	        { className: "info" },
-	        
-	       
-
+	        _react2.default.createElement(
+	          "p",
+	          null,
+	          "Double-click to edit a todo"
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          null,
+	          "Written by ",
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://twitter.com/phacks" },
+	            "@phacks"
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          null,
+	          "Part of ",
+	          _react2.default.createElement(
+	            "a",
+	            { href: "http://todomvc.com" },
+	            "TodoMVC"
+	          )
+	        )
 	      );
 	    }
 	  }]);
